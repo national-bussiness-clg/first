@@ -1,0 +1,409 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+    /* background-color: gray; */
+}
+body
+{
+    margin-left: 20px;
+    margin-right: 20px;
+    background-color: grey;
+}
+.navbar
+{
+    display: flex;
+    flex-wrap: wrap;
+    height: 70px;
+    background-color: black;
+    color: white;
+    justify-content:space-evenly;
+}
+.border
+{
+    border: 1px solid transparent;
+}
+.border:hover
+{
+    border: 1px solid white;
+    border-radius: 7px;
+    padding: 3px;
+}
+
+/* heading section of the navbar */
+    /* part-1 */
+
+.logo
+{
+   height: 100px;
+}
+.amz-logo
+{
+    margin-top: 15px;
+    background-image: url(amazon-dark-logo-black-and-white.png);
+    background-size: cover;
+    height: 40px;
+    width: 100px;
+    box-shadow: 2px 2px 6px whitesmoke;
+    border-radius: 10px;
+    align-items: center;
+    transition: all 0.5s ease-out 0.1s;
+}
+.amz-logo:hover
+{
+    rotate: 360deg;
+    transform: scale(1.2);
+}
+
+              /* par-2 */
+.logo-2
+{
+   height: 100px;
+}
+.delivery-tag
+{
+    margin-top: 15px;
+    align-items: center;
+}
+.delivery-tag span
+{
+    font-size: 13px;
+    margin-left: 3px;
+}
+.add-icon i
+{
+    font-size: 12px;
+    margin-left: 2px;
+}
+.delivery-tag p
+{
+    font-size: 14px;
+    margin-left: 2px;
+}
+
+         /* part -3  */
+
+ .logo-3
+ {
+    height: 100px;
+   
+}
+.search-bar
+{
+    margin-top: 20px;
+    background-color: white;
+    border-radius: 7px;
+    align-items: center;
+}
+.search-bar:hover
+{
+    border: 1px solid blanchedalmond;
+}
+.search-bar select
+{
+   height: 30px;
+   width: 45px;
+   background-color: rgb(230, 182, 190);
+   border-top-left-radius: 7px;
+   border-bottom-left-radius: 7px;
+   border: none ;
+   align-items: center;
+}
+.search-bar input
+{
+   height: 30px;
+   width: 550px;
+   border-top-right-radius: 7px;
+   border-bottom-right-radius: 7px;
+   border: none ; 
+   align-items: center;
+}
+.search-bar i
+{
+    height: 30px;
+    width: 30px;
+    color: black;
+    background-color: pink;
+    padding: 6px;
+    border-top-right-radius: 7px;
+    border-bottom-right-radius: 7px;
+    border: none ;
+    align-items: center;
+}
+
+/* part -4 */
+
+.hello-tag
+{
+    margin-top: 15px;
+    align-items: center;
+}
+.hello-tag p
+{
+    font-size: 12px;
+}
+.hello-tag span
+{
+    font-size: 13px;
+
+}
+
+/* part- 5  */
+
+.return-tag
+{
+    margin-top: 15px;
+    align-items: center;
+}
+.return-tag p
+{
+    font-size: 12px;
+}
+.return-tag span
+{
+    font-size: 13px;
+}
+/* part-6 */
+
+.cart-tag
+{
+    margin-top: 20px;
+}
+.cart-tag i
+{
+    font-size: 25px;
+    color: pink;
+}
+.cart-tag span
+{
+    font-size: 15px;
+}
+
+/* second navbar */
+
+.second-navbar
+{
+    height: 30px;
+    background-color: rgb(60, 60, 70);
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    color: white;
+}
+.all-icon
+{
+    margin-left: 10px;
+    font-size: 12px;
+    font-weight: 600;
+    transition: all 0.1s ease-out 0.1s;
+}
+.all-icon:hover
+{
+    border: 1px solid white;
+    padding: 7px;
+    border-radius: 5px;
+    transform: translateX(1px);
+}
+.options
+{
+   display: flex;
+   position: absolute;
+   left: 100px;
+}
+.options p
+{
+  margin-right: 25px;
+  font-size: 12px;
+  transition: all 0.1s ease-out 0.1s;
+}
+.options p:hover
+{
+    transform: scale(1.001);
+    box-shadow: 2px 2px 3px white;
+    padding: 4px 5px 4px 5px;
+    border-radius: 5px;
+
+}
+.sec-options
+{
+    margin-right: 10px;
+    font-size: 14px;
+    font-weight: 600;
+    transition: all 0.5s ease-out;
+}
+.sec-options:hover
+{
+    border: 2px solid white;
+    padding: 7px;
+    border-radius: 5px;
+    transform: translateX(-20px);
+}
+
+/* middle */
+
+.background
+{
+    display: flex;
+    background-size: cover;
+    background-position: center;
+    background-image: url("day-view\ image.jpg");
+    height: 280px;
+    justify-content: center;
+   
+}
+.backpan
+{
+    padding: 10px 20px 10px 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 25px;
+    border-radius: 7px;
+    background-color: rgb(232, 221, 221);
+    position: relative;
+    top: 250px;
+    transition: all 0.4s ease-out 0.1s;
+}
+.backpan:hover
+{
+    background-color: rgb(204, 222, 217);
+    border: 0.2px solid rgb(61, 61, 64);
+    transform: scale(1.02);
+    box-shadow: 1px 3px 5px black;
+
+}
+.backpan span
+{
+    font-size: 13px;
+}
+
+    /* shopping background images  */
+
+.middle
+{
+    display: flex;
+    justify-content: space-evenly;
+    background-color: rgb(202, 195, 195);
+    flex-wrap: wrap;
+}
+.div
+{
+    height: 250px;
+    width: 230px;
+    background-image: url(shopping\ background.jpg);
+    background-size: cover;
+    border: 1px solid green;
+    border-radius: 15px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    transition: all 0.4s ease-out 0.1s;
+  
+}
+.div:hover
+{
+   transform: scale(1.05);
+   /* transform: translate(80px); */
+   border: 1px solid black;
+   box-shadow: 2px 3px 5px black;
+}
+.div h3
+{
+    margin-left: 15px;
+    margin-top: 15px;
+    color: black;
+    font-size: 20px;
+}
+.div a
+{
+    text-decoration: none;
+    position: relative;
+    top:180px;
+    left: 20px;
+}
+
+/* footer section  */
+
+.footer1
+{
+    height: 25px;
+    background-color: grey;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 14px;
+    outline: none;
+    font-weight: 700;
+}
+.footer2
+{
+    height: 300px;
+    background-color: rgb(79, 73, 73);
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.pro ul
+{
+    font-size: 12px;
+    color:rgb(210, 196, 196);
+   
+}
+.pro li
+{
+    margin-bottom: 8px;
+    list-style: none;
+    transition: all 0.2s ease-out 0.1s;
+}
+.pro li:hover
+{
+    transform: scale(1.01);
+    transform: translateX(2px);
+    box-shadow: 1px 2px 3px black;
+    padding: 4px 5px 4px 5px;
+    border-radius: 5px;
+
+}
+.pro h3
+{
+  position: relative;
+  right:15px;
+  bottom: 10px;
+  color: rgb(203, 161, 84);
+  transition: all 0.1s ease-out ;
+}
+.pro h3:hover
+{
+    transform: scale(1.01);
+    transform: translate(2px);
+    box-shadow: 1px 2px 3px black;
+    padding: 4px 5px 4px 5px;
+    border-radius: 7px;
+
+}
+.footer3
+{
+    height: 70px;
+    background-color: rgb(90, 75, 75);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-top:1px solid green;
+   
+}
+.footer3 button
+{
+   padding: 10px;
+   font-size: 10px;
+   border-radius: 7px;
+   background-color: rgb(90, 76, 76);
+   box-shadow: 2px 2px 5px black;
+   margin-left: 40px;
+}
+.footer3 button a
+{
+    text-decoration: none;
+    font-size: 15px;
+    color: white;
+    /* box-shadow: 1px 2px 5px black; */
+}
