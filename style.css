@@ -1,0 +1,442 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    list-style: none;
+    box-sizing: border-box;
+    font-family: "poppins",sans-serif;
+}
+p
+{
+    font-family: "Roboto",sans-serif;
+    font-size: 16px;
+}
+a
+{
+    text-decoration: none;
+    color: black;
+}
+/* navbar part-1 */
+.container
+{
+    margin-inline: auto;
+    padding: 10px;
+    max-width: 1180px;
+    overflow-x: hidden;
+}
+.top-banner
+{
+    height: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: rgb(155, 181, 181);
+    font-weight: 600;
+}
+ /* navbar part 2  */
+.banner2
+{
+    height: 30px;
+    display: flex;
+    align-items: center;
+    background-color: blanchedalmond;
+}
+.port
+{
+    width: 1000px;
+    display: flex;
+    justify-content:space-between;
+}
+.list
+{
+    display: flex;
+    align-items: center;
+    gap: 25px;
+}
+.list p
+{
+    font-size: 14px;
+}
+.burger-icon
+{
+
+    color: rgb(31, 46, 10);
+}
+
+/* header part 1 */
+
+.header-section
+{
+    height: auto;
+    width: auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: rgb(223, 223, 223);
+}
+.head
+{
+   display: flex;
+   align-items: center;
+   justify-content: center;
+   margin-bottom: 10px;
+   padding: 20px;
+   gap: 20px;
+}
+.header-left
+{
+    width: 400px;
+}
+.header-right
+{
+    height:250px;
+    width: 530px;
+    background-size: cover;
+    background-position: center;
+    border-radius: 10px;
+    background-image: url(beach-sea\ image.jpg);
+    box-shadow: 5px 10px 15px black;
+}
+
+/* header part 2  */
+
+.company-section
+{
+    background-color: rgb(200, 203, 200);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.company
+{
+    display: flex;
+    padding: 10px;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    background-color: rgb(200, 203, 200);
+}
+.company p
+{
+  margin-bottom: 20px;   
+  font-weight: 600;
+}
+.logos
+{
+    display: flex;
+    gap: 30px;
+}
+.img
+{
+    background-image: url(amazon-dark-logo-black-and-white.png);
+    background-size: cover;
+    /* height: 40px;
+    width: 100px; */
+    aspect-ratio: 12/4;
+    background-position: center;
+    box-shadow: 3px 5px 10px black;
+    border-radius: 7px;
+    padding: 20px;
+   
+}
+/* header part 3  */
+.three
+{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: rgb(223, 223, 223);
+}
+.three h2
+{
+    margin-top: 20px;
+}
+.butt
+{
+  display: flex;
+  justify-content: center;
+  margin-top: 10px;
+}
+.butt button
+{
+    padding: 10px;
+    border-radius: 8px;
+    border: none;
+    background-color: rgb(183, 226, 226);
+    font-weight: 600;
+}
+/* header part 4  */
+.main-box
+{
+    padding: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: rgb(223, 223, 223);
+}
+.inner-box
+{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+.card
+{ 
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    padding: 20px;
+    gap: 10px;
+    border: 2px solid black;
+    border-radius: 8px;
+    background-color: rgb(189, 215, 237);
+}
+.card button
+{
+    padding: 3px;
+    border-radius: 5px;
+    border: 0.1px solid black;
+    background-color: rgb(196, 218, 211);
+    box-shadow: 1px 1px 2px black;
+}
+
+/* header part 5  */
+
+.header-section
+{
+    height: 330px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: rgb(223, 223, 223);
+}
+.head
+{
+   display: flex;
+   align-items: center;
+   justify-content: center;
+   padding: 20px;
+   gap: 20px;
+}
+.header-left
+{
+    width: 400px;
+}
+.header-right
+{
+    height:250px;
+    width: 530px;
+    background-size: cover;
+    background-position: center;
+    border-radius: 10px;
+    background-image: url(beach-sea\ image.jpg);
+    box-shadow: 5px 10px 15px black;
+}
+
+/* header part 6 */
+
+.header-section2
+{
+    height: 330px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: rgb(223, 223, 223);
+}
+.head2
+{
+   display: flex;
+   flex-direction: row-reverse;
+   align-items: center;
+   justify-content: center;
+   padding: 20px;
+   gap: 30px;
+}
+.header-left2
+{
+    width: 400px;
+}
+.header-right2
+{
+    height:250px;
+    width: 530px;
+    background-size: cover;
+    background-position: center;
+    border-radius: 10px;
+    background-image: url(beach-sea\ image.jpg);
+    box-shadow: 5px 10px 15px black;
+}
+/* header part -7 */
+
+.header-section
+{
+    height: 330px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: rgb(223, 223, 223);
+}
+.head
+{
+   display: flex;
+   align-items: center;
+   justify-content: center;
+   padding: 20px;
+   gap: 20px;
+}
+.header-left
+{
+    width: 400px;
+}
+.header-right
+{
+    height:250px;
+    width: 530px;
+    background-size: cover;
+    background-position: center;
+    border-radius: 10px;
+    background-image: url(beach-sea\ image.jpg);
+    box-shadow: 5px 10px 15px black;
+}
+/* header part 8 */
+.doremon
+{
+    padding: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: rgb(200, 203, 200);
+}
+.nobita h2
+{
+   padding: 10px;
+   flex-wrap: wrap;
+}
+.btn
+{
+    display: flex;
+    justify-content: center;
+}
+.btn button
+{
+    padding: 8px;
+    background-color: pink;
+    border-radius: 8px;
+    border: none;
+    font-weight: 600;
+}
+/* header part 9 */
+.picture
+{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    background-color: rgb(223, 223, 223);
+}
+.pic
+{
+    padding: 10px;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    gap: 50px;
+}
+.pict
+{
+    height: 200px;
+    width: 200px;
+    padding: 15px;
+    background-position: center;
+    background-size: cover;
+    border-radius: 10px;
+    display: flex;
+    align-items:end;
+}
+.pict p
+{
+    color: aliceblue;
+    font-weight: 500;
+}
+/* footer part - 1 */
+.foot
+{
+    height: auto;
+    padding: 15px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #e4ba76;
+}
+.footbox
+{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    gap: 15px;
+}
+.footbox button
+{
+    padding: 5px;
+    border: none;
+    background-color: rgb(223, 223, 223);
+    font-weight: 500;
+    border-radius: 5px;
+}
+/* footer part 2 */
+.foot2
+{ 
+    height: auto;
+    padding: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #a28454;
+}
+.footbox2
+{
+    display: flex;
+    align-items: center;
+    gap: 50px;
+}
+.foot-list
+{
+    display: flex;
+    flex-direction: column;
+}
+.foot-list h3
+{
+    margin-bottom: 10px;
+}
+.foot-list li
+{
+  padding: 5px;
+  font-size: 15px;
+}
+.foot-list-img
+{
+    height: 200px;
+    width: 300px;
+    border-radius: 10px;
+    background-position: center;
+    background-size: cover;
+    margin-right: 50px;
+}
+/* end of the footer */
+.end-footer
+{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: rgb(210, 210, 210);
+}
+.end-foot
+{
+    display: flex;
+    align-items: center;
+    gap: 50px;
+}

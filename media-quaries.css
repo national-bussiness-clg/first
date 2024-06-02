@@ -1,0 +1,675 @@
+@media (max-width:769px) 
+{
+    /* one */
+   .port
+   {
+    width: 725px;
+   }
+/* two */
+   .logos
+   {
+     display: grid;
+     grid-template-columns: repeat(3,1fr);
+     column-gap: 100px;
+     row-gap: 20px;
+   }
+/* three */
+   .inner-box
+   {
+    gap: 30px;
+    column-gap: 100px;
+   }
+   .card
+   {
+    width: 260px;
+   }
+/* four */
+   .pic
+   {
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    padding: none;
+    gap: 25px;
+   }
+   .pict
+   {
+    width: 350px;
+   }
+   /* five */
+   .header-section
+   {
+     height: 250px;
+   }
+   .header-section2
+   {
+     height: 250px;
+   }
+   .header-right
+   {
+    height:160px;
+   }
+   .header-right2
+   {
+    height:160px;
+   }
+   .header-left
+   {
+    width: 600px;
+   }
+   .header-left2
+   {
+    width: 600px;
+   }
+}
+@media (max-width: 426px) 
+{
+   .top-banner p
+   {
+      font-size: 13.5px;
+   }
+  /* one */
+  .banner2
+  {
+   height: 25px;
+   display: flex;
+   align-items: center;
+  }
+  .all span
+  {
+   font-size: 13px;
+  }
+  .port
+  {
+   width: 350px;
+  }
+  .list p
+  {
+   display: none;
+  }
+  /* two */
+  .header-section
+  {
+   height: 280px;
+  }
+  .head
+  {
+   padding: 0px;
+   display: flex;
+   flex-direction: column-reverse;
+  }
+  .header-left
+  {
+    width: 400px;
+  }
+  .header-left h2
+  {
+    font-size: 15px;
+    display: flex;
+    margin-bottom: 5px;
+    justify-content: center;
+  }
+  .header-left p
+  {
+   margin-left: 10px;
+   font-size: 13px;
+  }
+.header-right
+  {
+    height:140px;
+    width: 360px;
+  }
+  /* three */
+
+  .header-section2
+  {
+   height: 280px;
+  }
+  .head2
+  {
+   padding: 0px;
+   display: flex;
+   flex-direction: column-reverse;
+  }
+  .header-left2
+  {
+    width: 400px;
+  }
+  .header-left2 h2
+  {
+    font-size: 15px;
+    display: flex;
+    margin-bottom: 5px;
+    justify-content: center;
+  }
+  .header-left2 p
+  {
+   margin-left: 10px;
+   font-size: 13px;
+  }
+.header-right2
+  {
+    height:140px;
+    width: 360px;
+  }
+  /* four */
+  .company
+  {
+   padding: 5px;
+  }
+  .company p
+  {
+    font-size: 15px;
+    margin-bottom: 20px;
+  }
+  .logos
+  {
+    gap: 20px;
+    column-gap: 40px;
+  }
+  .img
+  {
+   width: 100px;
+  }
+  /* five */
+  .three
+  {
+   background-color: rgb(202, 193, 193); ;
+  }
+  .head-button h2
+  {
+     font-size: 18px;
+  }
+  .butt button
+  {
+    padding: 5px;
+    font-size: 12px;
+    border-radius: 5px;
+    background-color: rgb(222, 170, 132);
+  }
+
+  /* six */
+
+  .inner-box
+  {
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    gap: 20px;
+  }
+  .card
+  {
+    padding: 10px;
+    height: 100px;
+    width: 180px;
+  }
+  .card h2
+  {
+    font-size: 17px;
+  }
+  .card p
+  {
+   font-size: 12px;
+  }
+  .card button
+  {
+    padding: 2px;
+    font-size: 12px;
+  }
+
+  /* seven */
+
+  .nobita
+  {
+    padding: 0px;
+  }
+  .nobita h2
+  {
+    font-size: 16px;
+  }
+  .btn button
+  {
+    padding: 5px;
+    font-size: 11px;
+    background-color: rgb(131, 176, 199);
+  }
+  /* eight */
+  .pic
+{
+    padding: 5px;
+    gap: 15px;
+}
+.pict
+{
+    height: 100px;
+    width: 180px;
+}
+.pict p
+{
+   font-size: 10px;
+}
+/* nine */
+.foot
+{
+  height: 90px;
+}
+.footbox
+{
+  gap: 8px;
+}
+.footbox h2
+{
+  font-size: 17px;
+}
+.footbox p
+{
+  font-size: 12px;
+}
+.footbox button
+{
+  padding: 4px;
+  font-size: 10px;
+  font-weight: 600;
+}
+/* ten */
+.foot2
+{ 
+    height: 180px;
+    padding: 10px;
+}
+.footbox2
+{
+    gap: 15px;
+}
+.foot-list h3
+{
+    margin-bottom: 10px;
+    font-size: 13px;
+}
+.foot-list li
+{
+  padding: 2px;
+  font-size: 12px;
+}
+.foot-list-img
+{
+    height: 130px;
+    width: 200px;
+    margin-right: 20px;
+}
+/* eleven */
+
+.end-foot
+{
+  gap: 20px;
+}
+.end-foot p
+{
+  font-size: 11px;
+}
+
+}
+@media (max-width: 376px) 
+{
+  .top-banner p
+  {
+    font-size: 12px;
+  }
+  .all span
+  {
+    font-size: 11px;
+  }
+  .burger-icon i
+  {
+    font-size: 12px;
+  }
+  /* two */
+  .header-section
+  {
+   height: 250px;
+  }
+  .header-left
+  {
+    width: 350px;
+  }
+  .header-left h2
+  {
+    font-size: 13px;
+  }
+  .header-left p
+  {
+   margin-left: 10px;
+   font-size: 11px;
+  }
+.header-right
+  {
+    height:120px;
+    width: 320px;
+  }
+  /* part 2  */
+  .header-section2
+  {
+   height: 250px;
+  }
+  .header-left2
+  {
+    width: 350px;
+  }
+  .header-left2 h2
+  {
+    font-size: 13px;
+  }
+  .header-left2 p
+  {
+   margin-left: 10px;
+   font-size: 11px;
+  }
+.header-right2
+  {
+    height:120px;
+    width: 320px;
+  }
+  /* three */
+   /* four */
+   .company
+   {
+    padding: 0px;
+   }
+   .company p
+   {
+     font-size: 13px;
+   }
+   .logos
+   {
+     gap: 10px;
+     column-gap: 20px;
+   }
+   .img
+   {
+    width: 100px;
+   }
+   /* five */
+   .three
+   {
+    height: 60px;
+   }
+   .butt
+{
+  margin-top: 2px;
+}
+   .head-button h2
+   {
+    margin-top: 5px;
+      font-size: 16px;
+   }
+   .butt button
+   {
+     padding: 3px;
+     font-size: 10px;
+   }
+ 
+   /* six */
+ 
+   .main-box
+{
+    padding: 5px;
+}
+   .inner-box
+   {
+     gap: 20px;
+   }
+   .card
+   {
+     padding: 5px;
+     height: 70px;
+     width: 150px;
+     gap: 4px;
+   }
+   .card h2
+   {
+     font-size: 15px;
+   }
+   .card p
+   {
+    font-size: 10px;
+   }
+   .card button
+   {
+     padding: 2px;
+     font-size: 10px;
+   }
+ 
+   /* seven */
+ 
+   .doremon
+{
+    padding: 0px;
+}
+   .nobita h2
+   {
+     font-size: 14px;
+   }
+   .btn button
+   {
+     font-size: 10px;
+   }
+   /* eight */
+   .pic
+ {
+     gap: 15px;
+ }
+ .pict
+ {
+     height: 80px;
+     width: 160px;
+     padding: 10px;
+ }
+ .pict p
+ {
+    font-size: 9px;
+ }
+ /* nine */
+ 
+ .footbox h2
+ {
+   font-size: 15px;
+ }
+ .footbox p
+ {
+   font-size: 11px;
+ }
+ /* ten */
+ /* eleven */
+ .end-foot
+ {
+   gap: 15px;
+ }
+ .end-foot p
+ {
+   font-size: 10px;
+ }
+ 
+}
+@media (max-width: 321px) 
+{
+  .top-banner p
+  {
+    font-size: 11px;
+  }
+  .port
+  {
+    width: 280px;
+  }
+  /* two */
+  .header-section
+  {
+   height: 220px;
+  }
+  .header-left
+  {
+    width: 320px
+  }
+  .header-left p
+  {
+   font-size: 10.5px;
+  }
+.header-right
+  {
+    height:100px;
+    width: 270px;
+  }
+  /* part 2  */
+  .header-section2
+  {
+   height: 200px;
+  }
+  .header-left2
+  {
+    width: 320px;
+  }
+  .header-left2 p
+  {
+   margin-left: 10px;
+   font-size: 10.5px;
+  }
+.header-right2
+  {
+    height:100px;
+    width: 270px;
+  }
+  /* three */
+   /* four */
+   .company
+   {
+    padding: 0px;
+   }
+   .company-section
+   {
+    display: none;
+   }
+   /* five */
+   .three
+   {
+    height: 55px;
+   }
+   .butt
+{
+  margin-top: 2px;
+}
+   .head-button h2
+   {
+      font-size: 14px;
+      margin-bottom: 5px;
+   }
+   .butt button
+   {
+     padding: 3px;
+     font-size: 10px; 
+   }
+ 
+   /* six */
+ 
+   .main-box
+{
+    padding: 3px;
+}
+   .inner-box
+   {
+     gap: 12px;
+   }
+   .card
+   {
+     padding: 5px;
+     height: 60px;
+     width: 140px;
+     gap: 2px;
+     border: 1.2px solid black;
+   }
+   .card h2
+   {
+     font-size: 13px;
+   }
+   .card button
+   {
+     padding: 2px;
+     font-size: 9px;
+   }
+ 
+   /* seven */
+ 
+   .doremon
+{
+    padding: 0px;
+    height: 70px;
+}
+   .nobita h2
+   {
+     font-size: 13px;
+   }
+   .btn button
+   {
+     font-size: 10px;
+   }
+   /* eight */
+   .pic
+ {
+     gap: 10px;
+ }
+ .pict
+ {
+     height: 70px;
+     width: 140px;
+     padding: 12px;
+ }
+ .pict p
+ {
+    font-size: 7px;
+ }
+ /* nine */
+ /* ten */
+ /* eleven */
+ .foot2
+{ 
+    height: auto;
+    padding: 5px;
+}
+.footbox2
+{
+    gap: 35px;
+   
+}
+.foot-list
+{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+.foot-list h3
+{
+    margin-bottom: 7px;
+}
+.foot-list li
+{
+  padding: 2.5px;
+  font-size: 11px;
+}
+.foot-list-img
+{
+   display: none;
+}
+.end-footer
+{
+  height: 25px;
+}
+ .end-foot
+ {
+   gap: 15px;
+ }
+ .end-foot p
+ {
+   font-size: 8px;
+ }
+ .end-foot i
+ {
+  font-size: 12px;
+ }
+}
